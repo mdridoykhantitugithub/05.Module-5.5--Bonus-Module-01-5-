@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Button area css */
+#pseudo-class{
+    margin: 100px 200px;
+}
+#pseudo-class a{
+    background-color: violet;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#pseudo-class a:hover{
+    background-color: aqua;
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+/* pseudo class */
+#all-inputs{
+    margin: 100px 200px;
+}
+input{
+    padding: 10px;
+}
+input:first-of-type {
+    padding: 50px;
+}
+input:active{
+    color: red;
+}
+input:any-link{
+    background-color: red;
+}
+input:checked{
+    background-color: red;
+}
+input:first{
+    background-color: red;
+}
+input:first{
+    background-color: red;
+}
+input:focus{
+    background-color: red;
+}
+input:hover{
+    background-color: red;
+}
+input:double-button{
+    background-color: red;
+}
+input:disabled{
+    background-color: red;
+}
+input:visited{
+    background-color: red;
+}
+input:fast-child(){
+    background-color: red;
+}
+input:last-child(){
+    background-color: red;
+}
+input:nth-child(2n){
+    background-color: red;
+}
+input:nth-child(2n+1){
+    background-color: red;
+}
+
+
+
+/* pseudo element */
+input::before{
+    background-color: red;
+}
+input::after{
+    background-color: red;
+}
+
+
+#element{
+    margin: 100px 200px;
+}
+h1::before{
+    content: " MD Ridoy Khan ";
+}
+h3::after{
+    content: " MD Ridoy Khan ";
+}
+p::before{
+    content: "❤️";
+}
+h4::before{
+    content: "🔥";
+}
+h5::before{
+    content: "😊";
+}
+
+
+
+
+div .pic1{
+    top: 0px;
+    position: static;
+}
+div .pic2{
+    position: absolute;
+}
+div .pic3{
+    position: relative;
+}
